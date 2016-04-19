@@ -1,5 +1,4 @@
-.idea/*
-.DS_Store
+# General
 composer.lock
 config/*
 export/*
@@ -11,3 +10,13 @@ config.ini
 latest-change.txt
 *-ck.js
 *.sass-cache/
+
+# Dependencies
+node_modules
+
+# OS generated files
+.DS_Store
+.DS_Store?
+
+# IDE Plugins
+.idea/*

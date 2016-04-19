@@ -1,0 +1,28 @@
+{
+  "name": "atomic-drupal",
+  "version": "1.0.0",
+  "description": "Manage NPM packages for atomic-drupal pattern lab.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninjazero/atomic-drupal.git"
+  },
+  "keywords": [
+    "pattern-lab",
+    "drupal",
+    "atomic-design"
+  ],
+  "author": "Anthony Horn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ninjazero/atomic-drupal/issues"
+  },
+  "homepage": "https://github.com/ninjazero/atomic-drupal#readme"
+}
