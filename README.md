@@ -9,8 +9,8 @@ https://github.com/pattern-lab/patternlab-php
 
 Generate Pattern Lab for the first time:
 
-*Open `core/scripts/`
-*Double-click `generateSite.command`
+* Open `core/scripts/`
+* Double-click `generateSite.command`
 
 or open terminal and run the following command from your pattern lab root
 
