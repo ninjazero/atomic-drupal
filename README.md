@@ -6,5 +6,3 @@ Design was created in illustrator and uploaded as a pdf for reference in the **d
 
 ## Step 2 - Add Pattern Lab
 https://github.com/pattern-lab/patternlab-php
-
-
