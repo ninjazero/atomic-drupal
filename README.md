@@ -78,5 +78,39 @@ ahorn atomic-drupal (gulp-config) $ gulp
 ahorn atomic-drupal (gulp-config) $ 
 ```
 
+### Getting Started With Gulp and Sass
+http://ryanchristiani.com/getting-started-with-gulp-and-sass/
 
+Run `npm install --save-dev gulp-sass`
 
+You should now see gulp-sass added to your devDependancies in your
+package.json file.
+
+```
+"devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0"
+  },
+```
+
+Now update your gulpfile.js to look like this:
+
+```
+'use strict';
+
+// Require node modules
+var gulp = require('gulp');
+var sass = require('gulp-sass');
+
+// Gulp Task: Compile single sass file
+gulp.task('styles', function() {
+  gulp.src('./source/css/*.scss')
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('./public/css/'));
+});
+```
+
+You can see this in action by deleting the style.css file from public/css
+directory, and running your `gulp styles` command in the command line.
+
+You should see a new style.css generated in public/css
